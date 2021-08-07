@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    background-color: #212E3E;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    width: 45%;
+    height: 440px;
+    background-color: #4B9CFE;
+    position: fixed;
+    top: 16%;
+    left: 26%;
+}
+.inner{
+    width: 76%;
+    height: 320px;
+    background-color: white;
+    position: relative;
+    left: 10%;
+    top: 9%;
+}
+.box{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 40px;
+}
+.button p{
+    background-color: #3C7CCA;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -247px;
+    
+}
+#tweet{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+
+.number:hover img{
+    animation: rot 1s linear;
+}
+@keyframes rot {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
